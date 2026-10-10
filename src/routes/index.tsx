@@ -2,8 +2,9 @@ import { createFileRoute } from "@tanstack/react-router";
 import { useState } from "react";
 import { ArrowUpRight, Heart, MessageCircle, Users, Plus, Minus, ChevronDown, Menu, X, Sparkles, Star } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import banner from "@/assets/kamiko-banner.png.asset.json";
-import logo from "@/assets/kamiko-logo.png.asset.json";
+
+const logo = { url: "/logo.png" };
+const banner = { url: "/banner.png" };
 
 const invite = "https://discord.gg/kamikos";
 
